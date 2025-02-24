@@ -6,7 +6,7 @@ export default function Footer() {
     <FooterWrapper>
       <div className="footer__content">
         <div className="footer__logo">
-          <img src="https://files8.netlify.app/lighting_logo.png" alt="Logo" />
+          <img src="https://files.hvin.tech/lighting_logo.png" alt="Logo" />
         </div>
         <div className="footer__socials">
           {/* Instagram Icon */}
@@ -66,7 +66,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer__copyright">
-          &copy; {new Date().getFullYear()} hv All rights reserved.
+          &copy; {new Date().getFullYear()} hv
         </div>
       </div>
     </FooterWrapper>
