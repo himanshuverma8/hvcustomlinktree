@@ -70,7 +70,7 @@ function App() {
         <Route path="/leetcode" element={<RedirectComponent to="https://leetcode.com/himanshuverma8" />} />
         <Route path="/gfg" element={<RedirectComponent to="https://www.geeksforgeeks.org/user/himanshu_ver/" />} />
         <Route path="/github" element={<RedirectComponent to="https://github.com/himanshuverma8" />} />
-        <Route path="/resume" element={<RedirectComponent to="https://drive.google.com/file/d/1HFVEddg6liOiasAKx1ttoekElkUcHiLJ/view" />} />
+        {/* this line is removed */}
         <Route path="/logo" element={<RedirectComponent to="https://files.hvin.tech/lighting_logo.png" />} />
 
         {/* Redirect unknown routes to home */}
